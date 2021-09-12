@@ -1,1 +1,349 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f6f8f9;
+}
 
+.text-muted {
+  color: #A6ADB4 !important;
+}
+
+.btn-view {
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding: 15px 60px;
+}
+
+.btn-view.btn-primary {
+  background-color: #325DFF;
+}
+
+a {
+  color: #ffffff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #A6ADB4;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.card-category {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.25rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-img-overlay {
+  top: auto;
+}
+
+.card-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.card-icon.red {
+  background-color: #EE6880;
+}
+
+.card-icon.blue {
+  background-color: #325DFF;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-time {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-style: italic;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.card-time.icon {
+  background: url("/images/Path 5.svg") no-repeat;
+}
+
+.card-time a {
+  text-decoration: underline;
+  color: #A6ADB4;
+}
+
+header .navbar-brand {
+  padding: 0 30px;
+  background-color: #EE6880;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav .nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #343638;
+  opacity: 0.5;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+header nav .nav-link:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+section {
+  padding: 30px 0;
+}
+
+section .carousel .carousel-indicators {
+  right: auto;
+  bottom: 60px;
+}
+
+section .carousel .carousel-caption {
+  text-align: left;
+  width: 40%;
+  color: #ffffff;
+  bottom: 80px;
+}
+
+section .carousel .carousel-caption h5 {
+  font-size: 60px;
+}
+
+section .carousel .carousel-caption p {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+section .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #343638;
+  margin-bottom: 30px;
+}
+
+section .section-header {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section .section-header p {
+  opacity: 0.65;
+  font-size: 16px;
+}
+
+section.happening a.card {
+  overflow: hidden;
+}
+
+section.happening a.card img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+section.happening a.card:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+section.card-menu .card .card-title {
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+section.card-menu .card .card-text {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+section .card-group {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .card-group .card {
+  border: none;
+}
+
+section .card-group .card:first-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+section .card-group .card + .card {
+  border-radius: 0;
+}
+
+section .card-group .card:last-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+section .card-group .card .card-body {
+  padding: 80px;
+}
+
+section .card-group .card .card-body .card-title {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+section .card-group .card .card-body p {
+  font-size: 14px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #3e3e3e;
+  width: 100%;
+  margin-top: 50px;
+  padding: 30px 0;
+  font-weight: bold;
+}
+
+footer .brand {
+  padding: 20px 5px;
+  font-size: 13px;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li {
+  padding: 5px;
+}
+
+footer nav ul li a {
+  font-size: 13px;
+}
+
+footer .input-group input {
+  background-color: transparent !important;
+  border-color: #6c757d !important;
+  border-right: none !important;
+}
+
+footer .input-group button {
+  border-left: none;
+}
+
+footer .input-group button:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 1199px) {
+  section {
+    padding: 30px 0;
+  }
+  section .carousel .carousel-indicators {
+    bottom: 40px;
+  }
+  section .carousel .carousel-caption {
+    bottom: 60px;
+  }
+  section .carousel .carousel-caption h5 {
+    font-size: 35px;
+  }
+  section .carousel .carousel-caption p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .btn-view {
+    font-size: 10px;
+    padding: 10px 30px;
+  }
+  header .navbar-brand {
+    padding: 0 20px;
+    font-size: 18px;
+  }
+  header nav .navbar-toggler {
+    background-color: #A6ADB4;
+  }
+  section {
+    padding: 30px 0;
+  }
+  section .carousel .carousel-indicators {
+    right: 0;
+    bottom: 30px;
+  }
+  section .carousel .carousel-caption {
+    text-align: center;
+    width: auto;
+    bottom: 40px;
+  }
+  section .carousel .carousel-caption h5 {
+    font-size: 30px;
+  }
+  section .carousel .carousel-caption p {
+    font-size: 14px;
+  }
+  section .section-title {
+    font-size: 24px;
+  }
+  section.card-menu .card .card-title {
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.8;
+  }
+  section.card-menu .card .card-text {
+    font-weight: lighter;
+    font-size: 14px;
+  }
+  section .card-group .card .card-body {
+    padding: 30px;
+  }
+  section .card-group .card .card-body .card-title {
+    font-size: 24px;
+  }
+  section .card-group .card .card-body p {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+  }
+  footer {
+    padding: 10px 0;
+  }
+  footer #social {
+    text-align: right;
+  }
+}
+
+@media (max-width: 575px) {
+  section .carousel .carousel-caption {
+    bottom: 20px;
+  }
+  section .carousel .carousel-caption h5 {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
